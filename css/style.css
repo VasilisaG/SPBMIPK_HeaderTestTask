@@ -1,0 +1,240 @@
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+     box-sizing: inherit;
+  }
+  body{
+    margin: 0;
+  }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar{
+    height: 166px;
+    width: 2087px;
+    position: absolute;
+    margin-top: 0;
+    background-color: #F8F9FA;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding-top: 0;
+  }
+
+  /* logo */
+
+
+  .nav-img {
+    margin-left: 376px;
+    margin-right: 1530px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    width: 130px;
+  }
+  .Peterberg {
+    margin-top: 7px;
+    position: absolute;
+    padding: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    text-align: center;
+    background-color: #DEE8FF;
+    color:#041741;
+    width: 207px;
+    height: 27px;
+    padding-left: 50px;
+  }
+  .logo {
+    margin-top: 46px;
+    margin-left: 376px;
+    margin-right: 1530px;
+    position: absolute;
+    height: 62px;
+    width: 181px;
+    left: 2px;
+  }
+  .nav-logo {
+    width: 100%;
+  }
+  .massang {
+    margin-right: 1340px;
+    margin-top: 50px;
+    display: flex;
+    width: 127px;
+    height: 35px;
+    margin-left: 236px;
+    align-items:flex-end;
+    justify-content: space-between;
+  }
+  
+  /* search */
+  
+  .search {
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+  .search-input{
+    padding: 0;
+    align-items: flex-end;
+    margin-top: 0;
+    position: absolute;
+    width: 562px;
+    height: 40px;
+    display: flex;
+    border-radius: 3px;
+    margin-left: 823px;
+  }
+  .img-search{
+    width: 10px;
+    height: 10px;
+    color: #ffffff;
+  }
+  .search input[type="text"] {
+    border: 1px solid #4E6BAD;
+    font-size: 14;
+    font-weight: 400;
+    font-style: normal;
+    width: 446px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .search button[type="submit"] {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 16px;
+    font-family: ubunt;
+    font-weight: 400;
+    width: 116px;
+    height: 40px;
+    background-color:#4E6BAD;
+    color: #ffffff;
+    border: none;
+  }
+
+  /* contsct */
+
+  .contacts {
+    margin-left: 1461px;
+    margin-right: 433px;
+    display: flex;
+    color: #001B5B;
+    justify-content: space-between;
+    align-items:  flex-end;
+    margin-top: -60px;
+  }
+  .phone {
+    margin-top: 0;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .phone-content {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    align-items:  flex-end;
+    margin-top: 0;
+    padding: 0;
+  }
+  .time {
+    width: 168px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:#4E6BAD;
+    font-weight: 400;
+  }
+  .number {
+
+    width: 193px;
+    height: 28px;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+    display: flex;
+    text-transform: uppercase;
+    color: #001B5B;
+    align-items: flex-end;
+  }
+  .email-link {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items:flex-end;
+    text-align: right;
+    text-decoration: none;
+    color: #4E6BAD;
+    display: block;
+  }
+  .email {
+    display: flex;
+    align-items:flex-end;
+    width: 152px;
+    height: 14px;
+  }
+
+
+  /* Menu*/
+
+
+  .menu {
+    margin-top: 136px;
+    margin-left: 376px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 36px;
+    width: 1278px;
+    position: absolute;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .menu-indent {
+    box-shadow:#0752FF 0 -2px 2px -2px ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+  .menu-center {
+    list-style-type: none;
+    width: 103px;
+    margin-left: 19px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 140px;
+  }
+  .spmipk-nav-link {
+    width: 103px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #001B5B;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .menu-center:hover, .menu-center:focus, .menu-center:active {
+    opacity: .75; 
+  }
+  
+  
+ 
+ 
+ 
